@@ -16,7 +16,8 @@ var generatePassword = function(){
   var numbers = confirm("Would you like numbers in your password?")
   var symbols = confirm("Would you like symbols in your passworld?")
   
-  if (capital_letter) {    
+  // if (capital_letter) {    
+  capital = function () {
     for ( var i = 0; i < pswd_length; i++) {    
       var random = Math.floor(Math.random() * capital_list.length);  
       var select_upper = random
@@ -24,7 +25,8 @@ var generatePassword = function(){
     }
   }
 
-  if (lowercase_letter) {
+  // if (lowercase_letter) {
+  lowecase = function () {
     for ( i = 0; i < pswd_length; i++) {
       random = Math.floor(Math.random() * capital_list.length);
       var select_lower = random
@@ -32,7 +34,8 @@ var generatePassword = function(){
     }
   }
 
-  if (numbers) {
+  // if (numbers) 
+  number = function () {
     for ( i = 0; i < pswd_length; i++) {
       random = Math.floor(Math.random() * 9);
       var select_number = random
@@ -40,7 +43,8 @@ var generatePassword = function(){
     }
   }
 
-  if (symbols) {
+  // if (symbols) 
+  symbols = function () {
     for  (i = 0; i < pswd_length; i++) {
       random = Math.floor(Math.random() * symbols_list.length);
       var select_symbol = random
