@@ -16,7 +16,13 @@ var generatePassword = function(){
   var numbers = confirm("Would you like numbers in your password?")
   var symbols = confirm("Would you like symbols in your passworld?")
   
-  if (capital_letter) {    
+  if (capital_letter) {
+    caiptal();
+  } else {lower ()};
+  
+  return temp_password;
+}
+  caiptal = function () {    
     for ( var i = 0; i < pswd_length; i++) {    
       var random = Math.floor(Math.random() * capital_list.length);  
       var select_upper = random
@@ -24,7 +30,8 @@ var generatePassword = function(){
     }
   }
 
-  if (lowercase_letter) {
+  // if (lowercase_letter)
+  lower = function () {
     for ( i = 0; i < pswd_length; i++) {
       random = Math.floor(Math.random() * capital_list.length);
       var select_lower = random
@@ -49,8 +56,6 @@ var generatePassword = function(){
   }
   
   console.log(temp_password)
-  return temp_password;
-}
 
 
 // Get references to the #generate element
