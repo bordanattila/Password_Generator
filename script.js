@@ -18,7 +18,7 @@ var generatePassword = function(){
   symbols = "";
   temp_password = [];
   var final_pswd = "";
-  pswd_length = prompt("How long your password shoud be?\nIt will be copied to your clipboard.");
+  pswd_length = prompt("How long your password shoud be?");
   if (pswd_length > 7 && pswd_length < 129) {
     capital_letter = confirm("Would you like capital letters?");
   } else {
