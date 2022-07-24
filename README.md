@@ -9,9 +9,9 @@ This project allowed me to practice functions, exception handling, and dialogs.
 ## Usage
 
 ![Alt text](/images/startscreen.png?raw=true "Start screen")
-http://raw.github.com/bordanattila/Password_Generator/main/images/screen1.png
-http://raw.github.com/bordanattila/Password_Generator/main/images/screen2.png
-http://raw.github.com/bordanattila/Password_Generator/main/images/screen3.png
+![Alt text](/images/screen1.png)
+![Alt text](/images/screen2.png)
+![Alt text](/images/screen3.png)
 
 ## Credit
 
