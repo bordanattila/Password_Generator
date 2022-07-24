@@ -8,7 +8,11 @@ This project allowed me to practice functions, exception handling, and dialogs.
 
 ## Usage
 
-image.png
+![Alt text](/images/startscreen.png?raw=true "Start screen")
+http://raw.github.com/bordanattila/Password_Generator/main/images/screen1.png
+http://raw.github.com/bordanattila/Password_Generator/main/images/screen2.png
+http://raw.github.com/bordanattila/Password_Generator/main/images/screen3.png
+
 ## Credit
 
 Starter code of the application is provided by: https://github.com/coding-boot-camp/friendly-parakeet
