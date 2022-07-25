@@ -11,12 +11,6 @@ var temp_password = [];
 
 //Creating prompts and calling functions for each selected criteria
 var generatePassword = function(){
-  pswd_length = "";
-  capital_letter = "";
-  lowercase_letter = "";
-  numbers = "";
-  symbols = "";
-  temp_password = [];
   var final_pswd = "";
   pswd_length = prompt("How long your password shoud be?");
   if (pswd_length > 7 && pswd_length < 129) {
