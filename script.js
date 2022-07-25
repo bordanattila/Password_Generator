@@ -11,14 +11,8 @@ var temp_password = [];
 
 //Creating prompts and calling functions for each selected criteria
 var generatePassword = function(){
-  pswd_length = "";
-  capital_letter = "";
-  lowercase_letter = "";
-  numbers = "";
-  symbols = "";
-  temp_password = [];
   var final_pswd = "";
-  pswd_length = prompt("How long your password shoud be?");
+  pswd_length = prompt("How long your password shoud be?\nIt will be copied to the clipboard.");
   if (pswd_length > 7 && pswd_length < 129) {
     capital_letter = confirm("Would you like capital letters?");
   } else {
@@ -60,7 +54,7 @@ var generatePassword = function(){
     
     final_pswd = join_char.join("");
   }
- 
+  navigator.clipboard.writeText(final_pswd);
   return final_pswd;
 }
  
